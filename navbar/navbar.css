@@ -1,0 +1,102 @@
+/* navbar css */
+
+.navbar {
+  letter-spacing: 4px;
+  background-color: black;
+  min-height: 80px;
+}
+
+.navbar-header button {
+  margin: 0;
+  padding: 24px;
+}
+
+.navbar li {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .navbar-collapse {
+    margin-top: 25px;
+  }
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: white;
+  font-size: 16px;
+  line-height: 3;
+}
+
+.navbar-nav li a:hover {
+  color: black !important;
+}
+
+.navbar .navbar-brand {
+  margin-top: -0.45rem;
+}
+
+/* The active link */
+
+.navbar-nav li.active a {
+  color: black !important;
+}
+
+.open .dropdown-toggle {
+  color: #fff;
+  background-color: #555 !important;
+}
+
+.dropdown-menu li a {
+  color: white !important;
+}
+
+/* On hover, the dropdown links will turn red */
+
+.dropdown-menu li a:hover {
+  background-color: rgb(83, 81, 81) !important;
+  color: white !important;
+}
+
+.readmore {
+  color: rgb(93, 93, 241);
+}
+
+.navbar-toggle .icon-bar {
+  color: blue;
+  border-color: transparent;
+}
+
+.nav li a {
+  margin: 0px 10px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+  .nav li a {
+    margin: 0px;
+  }
+  .navbar-nav > li > a {
+    padding: 15px 10px;
+  }
+}
+
+.navbar-fixed-top .navbar-collapse {
+  max-height: 400px;
+}
+
+@media screen and (min-width: 279px) and (max-width: 410px) {
+  .navbar-header {
+    display: flex;
+    margin-left: -12rem;
+  }
+  .navbar-header .logo {
+    margin-left: -4rem;
+  }
+  .navbar-header button {
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+}
+
+/**/

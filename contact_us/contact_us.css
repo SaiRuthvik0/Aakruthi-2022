@@ -1,0 +1,211 @@
+/* contact us */
+
+.contact-heading {
+  color: black;
+  text-decoration: none;
+  font-family: sans-serif;
+  margin-bottom: 1em;
+}
+
+p {
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.o {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: black;
+  margin: -1rem 0 1.2rem 0;
+}
+
+.image {
+  width: 100%;
+  background-color: rgb(2, 2, 2);
+  transition: background-color 1s linear;
+}
+
+.image:hover {
+  background-color: transparent;
+}
+
+.img-responsive {
+  margin-top: 5.7em !important;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.heading {
+  font-size: 3em;
+  font-family: sans-serif;
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 1em;
+}
+
+.content {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.number-content {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  text-align: center;
+  width: 80% !important;
+  margin-left: 10%;
+}
+
+.social-media {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  margin-left: 30%;
+  justify-content: space-between;
+}
+
+.contact-numbers {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  margin-left: 30%;
+  justify-content: space-between;
+}
+.account {
+  background: transparent;
+  border: none;
+}
+
+.fa {
+  padding: 0.6em;
+  font-size: 1em;
+  width: 2em;
+  text-decoration: none;
+  border-radius: 0.5em;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  padding: 0.7em !important;
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: white;
+}
+
+.fa-envelope {
+  padding: 0.5em !important;
+  background-color: red;
+  color: white;
+}
+
+.fa-phone {
+  padding: 0.6em;
+  background-color: black;
+  color: white;
+}
+
+.mobile-number {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+@media (max-width: 699px) {
+  .heading {
+    font-size: 1.5em;
+    width: 60%;
+    margin-left: 30%;
+  }
+  .content {
+    font-size: 1.2em;
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+  }
+  .social-media {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .account {
+    margin: 1em;
+  }
+  form {
+    margin-left: 14% !important;
+    margin-top: 0;
+  }
+  .number-content {
+    width: 100% !important;
+    font-size: 1.3em;
+  }
+  .mobile-number {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .contact-numbers {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+.line-break {
+  width: 90%;
+  height: 2px;
+  background-color: black;
+}
+
+iframe {
+  width: 60%;
+  margin-left: 20%;
+}
+
+@media screen and (max-width: 699px) {
+  iframe {
+    width: 90%;
+    margin-left: 5%;
+  }
+}

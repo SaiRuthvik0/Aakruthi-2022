@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  font-size: 1.2em;
+}
+
+.event-body {
+  margin-top: 5.7em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.heading {
+  font-size: xxx-large;
+  margin: 0.5em;
+}
+.event-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+.event-right {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+.event-logo {
+  width: 20%;
+}
+.event-content {
+  width: 50%;
+  margin: 3em;
+  font-size: medium;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.register-button {
+  width: auto;
+  background: black;
+  height: auto;
+  padding: 1em;
+  color: white;
+  border-radius: 1em;
+}
+.register-button:hover {
+  transform: scale(1.1);
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white !important;
+  text-decoration: none !important;
+}
+.line-break {
+  width: 90%;
+  height: 2px;
+  background-color: black;
+}
+.current-event {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.event-name {
+  font-size: x-large;
+  width: 30%;
+  margin-left: 30%;
+}
